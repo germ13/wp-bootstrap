@@ -1,5 +1,9 @@
 // -------------------------------------------------- //
-// Local version of _varibles.scss, overide any default values for our theme
+// @import "_bootstrap_variables.scss";
+//  
+// Local version of _varibles.scss. Override any default 
+// values for our theme here, leaving the original copy 
+// of the file intact.
 // -------------------------------------------------- //
 
 @import "_bootstrap_variables.scss";
@@ -15,12 +19,16 @@
 
 
 // -------------------------------------------------- //
-//	Uncomment to Import copy of bootstrap.scss, modify 
-//  file paths, comment out files that are not needed 
-//  and original copy of  _bootstrap.scss
+// @import "stylesheets/_bootstrap_custom.scss";
+// 
+//	Uncomment to Import copy of bootstrap.scss. 
+//  Modify/comment out files that are not needed leaving 
+//  the original copy of the file intact.
+//  
+//  Comment out  _bootstrap.scss if using this method
 // -------------------------------------------------- //
 
-// @import "stylesheets/_bootstrap.scss";
+// @import "stylesheets/_bootstrap_custom.scss";
 
 
 

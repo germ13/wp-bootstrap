@@ -38,7 +38,7 @@ $ npm install -g generator-wp-underscores
 -  Create a folder in your WordPress themes folder and initiate the generator.
 
 ``` 
-$ mkdir theme-name && cd $_
+$ mkdir {theme-name} && cd $_
 $ yo wp-underscores
 ```
 
@@ -46,7 +46,7 @@ $ yo wp-underscores
 
 Now there should be a clean copy of _s(underscores) in the theme directory.
 
--  Clone the "**wp-bootstrap**" repository into the "wp-content/themes/{theme-name}" directory. It will create a folder titled wp-bootstrap.  The files from ``` wp-bootstrap/replacement files ``` need to be moved to the root of the theme.
+-  Clone the "**wp-bootstrap**" repository into the "wp-content/themes/{theme-name}" directory. Move the files from ``` wp-bootstrap/replacement files ``` to the root of the theme.
 
 ``` 
 $ git clone https://github.com/tedgeving/wp-bootstrap.git 
@@ -72,12 +72,12 @@ $ git clone https://github.com/tedgeving/wp-bootstrap.git
   '
 ```
 
-Use Bower to install Bootstrap and Jquery
+Use Bower to install Bootstrap https://github.com/twbs/bootstrap-sass
 
-- Install Bootstrap and Jquery
+- Install Bootstrap Sass
 
 ```
-$ bower install
+$ bower install boostrap-sass
 ```
 
 - Install required packages.
