@@ -77,7 +77,7 @@ Use Bower to install Bootstrap https://github.com/twbs/bootstrap-sass
 - Install Bootstrap Sass
 
 ```
-$ bower install boostrap-sass
+$ bower install bootstrap-sass
 ```
 
 - Install required packages.
