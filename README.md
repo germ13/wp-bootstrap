@@ -89,7 +89,7 @@ $ npm install
 - Next run the following command to set up Bootstrap Sass for the theme. This will copy Bootstrap Sass to the assets directory.  
 
 ``` 
-$ gunt copy 
+$ grunt copy 
 Running "copy:main" (copy) task
 Created 5 directories, copied 81 files
 ```
